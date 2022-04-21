@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="American Survey Finder"/>
+    <meta name="author" content="American Survey Finder"/>
+
+    <title>American Survey Finder</title>
+
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <!--== Google Fonts ==-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+    <!--== Bootstrap CSS ==-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!--== Main Style CSS ==-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!--== Responsive CSS ==-->
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<!--wrapper start-->
+<div class="wrapper">
+
+  <!--== Start Header Area ==-->
+  <header class="header-area">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <div class="logo text-center">
+            <a href="index.html"><img src="assets/img/logo.png" alt="Logo" /></a>
+            <img src="assets/img/bg-back-logo.png" alt="Logo BG" class="logo-bg"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--== End Header Area ==-->
+
+  <main class="main-content">
+    <!--== Start Slide Area ==-->
+    <section class="slide-area bg-slide-img text-center">
+      <div class="bg-image-box">
+        <img src="assets/img/header-money.png" alt="">
+      </div>
+      <div class="container">
+        <div class="slide-title">
+          <h2>America's First Destination for Paid Surveys</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-9">
+            <div class="form-wrapper">
+              <form action="#" class="survey-form" method="POST">
+                <div class="single-slide slide-page">
+                  <div class="down-arrow">
+                    <img src="assets/img/down-arrow.png" alt="">
+                  </div>
+                  <h3 class="sub-title">Ready to start earning money? <span>Let's begin...</span></h3>
+                  <h3 class="slide-title-2">Are you Male or Female?</h3>
+                  <div class="form-button d-md-flex justify-content-md-center">
+                    <input type="hidden" name="gender" class="inputGender">
+                    <button data-gender="male" class="btn btn-blue btnGender nextbtnmale next">Male</button>
+                    <button data-gender="female" class="btn btn-red btnGender nextbtnfemale next">Female</button>
+                  </div>
+                </div>
+                <div class="single-slide slide-two">
+                  <h3 class="slide-title-2">Please enter your Date of Birth</h3>
+                    <div class="form-all-box d-sm-flex justify-content-sm-center">
+                      <div class="form-group">
+                        <select name="birthMonth" class="form-control">
+                          <option value="month">Month</option>
+                          <option value="January">January</option>
+                          <option value="February">February</option>
+                          <option value="March">March</option>
+                          <option value="April">April</option>
+                          <option value="May">May</option>
+                          <option value="June">June</option>
+                          <option value="July">July</option>
+                          <option value="August">August</option>
+                          <option value="September">September</option>
+                          <option value="October">October</option>
+                          <option value="November">November</option>
+                          <option value="December">December</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select name="birthDay" class="form-control">
+                          <option value="day">Day</option>
+                          <option value="Saturday">Saturday</option>
+                          <option value="Sunday">Sunday</option>
+                          <option value="Monday">Monday</option>
+                          <option value="Tuesday">Tuesday</option>
+                          <option value="Wednesday">Wednesday</option>
+                          <option value="Thursday">Thursday</option>
+                          <option value="Friday">Friday</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select name="birthYear" class="form-control">
+                          <option value="year">Year</option>
+                          <option value="2004">2004</option>
+                          <option value="2003">2003</option>
+                          <option value="2002">2002</option>
+                          <option value="2001">2001</option>
+                          <option value="2000">2000</option>
+                          <option value="1999">1999</option>
+                          <option value="1998">1998</option>
+                          <option value="1997">1997</option>
+                          <option value="1996">1996</option>
+                          <option value="1995">1995</option>
+                          <option value="1994">1994</option>
+                          <option value="1993">1993</option>
+                          <option value="1992">1992</option>
+                          <option value="1992">1992</option>
+                          <option value="1991">1991</option>
+                          <option value="1991">1991</option>
+                          <option value="1990">1990</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-button d-md-flex justify-content-md-center">
+                      <button class="btn btn-red full-width-btn next-1 next">Next Question</button>
+                    </div>
+                </div>
+                <div class="single-slide slide-three">
+                  <h3 class="slide-title-2">What is your email address?</h3>
+                  <div class="form-all-box d-lg-flex justify-content-lg-center">
+                    <div class="form-group">
+                      <input name="email" type="email" placeholder="Your email address..." class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="form-button d-md-flex justify-content-md-center pt-10">
+                    <button class="btn btn-red full-width-btn next-2 next">Complete Profile</button>
+                  </div>
+                  <div class="form-text">
+                    <p>By clicking a button above, you agree to the Terms of Service and Privacy Policy and agree to receive daily newsletters and promotions via email from americansurveyfinder.com and our partners. You may unsubscribe from at any time.</p>
+                  </div>
+                </div>
+                <div class="single-slide slide-four">
+                  <h3 class="slide-title-2">Please be careful to provide accurate information. We use this to match you with surveys.</h3>
+                  <div class="form-all-box d-md-flex justify-content-md-center">
+                    <div class="row">
+                      <div class="col-12 col-lg-6">
+                        <div class="form-group">
+                          <input name="firstName" type="text" placeholder="First Name" class="form-control" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="form-group">
+                          <input name="lastName" type="text" placeholder="Last Name" class="form-control" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="form-group">
+                          <input name="phoneNumber" type="text" placeholder="Mobile Phone" class="form-control" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="form-group">
+                          <input name="zipCode" type="text" placeholder="Zip Code" class="form-control" required>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-12">
+                        <div class="form-group">
+                          <input name="postelCode" type="text" placeholder="Postal Address" class="form-control" required>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-button d-lg-flex justify-content-lg-center">
+                    <button type="submit" class="btn btn-red full-width-btn submit">Complete Profile</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Slide Area ==-->
+
+    <!--== Start Service Area ==-->
+    <section class="service-area bg-light-2 pb-30">
+      <div class="container text-center">
+        <div class="section-title">
+          <h2>How it Works?</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="single-service">
+              <div class="service-image">
+                <img src="assets/img/number-1.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="single-service">
+              <div class="service-image">
+                <img src="assets/img/number-2.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="single-service">
+              <div class="service-image">
+                <img src="assets/img/number-3.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Service Area ==-->
+    
+  </main>
+
+  <!--== Start Footer Area ==-->
+  <footer class="footer-area pt-50">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6">
+            <div class="footer-content text-center">
+              <div class="footer-image">
+                <img src="assets/img/flag.png" alt="">
+              </div>
+              <h4>We Support Our Troops</h4>
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Do Not Sell My Personal Information</a>
+              </div>
+              <div class="copyright">
+                <p>© Copyright 2022 americansurveyfinder.com <span>All Rights Reserved</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!--== End Footer Area ==-->
+
+
+</div>
+
+<!--=======================Javascript============================-->
+<!--=== jQuery Bootstrap Min Js ===-->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!--=== jQuery Custom Js ===-->
+<script src="assets/js/custom.js"></script>
+
+</body>
+
+
+</html>
